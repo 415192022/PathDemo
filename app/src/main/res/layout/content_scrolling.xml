@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />-->
-    <pathdemo.li.com.pathdemo.XRelativeLayout
+    <pathdemo.li.com.pathdemo.XScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFF">
@@ -71,6 +71,6 @@
                 android:layout_height="100dp" />
         </LinearLayout>
 
-    </pathdemo.li.com.pathdemo.XRelativeLayout>
+    </pathdemo.li.com.pathdemo.XScrollView>
 
 </RelativeLayout>

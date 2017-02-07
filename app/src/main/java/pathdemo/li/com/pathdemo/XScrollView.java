@@ -85,8 +85,8 @@ public class XScrollView extends ScrollView {
             @Override
             public void run() {
                 isDrawShadow = false;
-                if (pointF.y > getHeight() / 8) {
-                    pointF.y = getHeight() / 8;
+                if (pointF.y > getHeight() / 10) {
+                    pointF.y = getHeight() / 10;
                 }
                 for (float i = pointF.y; i > 0; i--) {
                     pointF.y = i;
